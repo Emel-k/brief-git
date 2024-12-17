@@ -60,7 +60,32 @@ section{
 p{
     color: dimgray;
     text-align: center;
-}/*-------FOOTER------*/
+}
+/*-----Formulaire----*/
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.formulaire{
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    padding: 15px;
+}
+label{
+    color: dimgray;
+    font-weight: 700;
+}
+
+button{
+    width: 150px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+/*-------FOOTER------*/
 
 footer{
     background-color: #f6e0cd;
